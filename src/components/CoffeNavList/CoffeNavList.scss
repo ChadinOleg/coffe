@@ -1,0 +1,19 @@
+.header__menu {
+	a {
+		color: white;
+	}
+}
+.nav__link {
+	background: linear-gradient(243deg, #6f4e37, #6f4e37, #fff);
+
+	background-size: 0% 2px;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	transition: background-size 0.3s ease-in-out;
+	&:hover {
+		background: linear-gradient(243deg, #6f4e37, #6f4e37, #fff);
+		background-size: 100% 2px;
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+	}
+}

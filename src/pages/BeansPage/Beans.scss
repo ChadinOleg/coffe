@@ -1,0 +1,58 @@
+.coffee-description {
+	&__info {
+		display: flex;
+	}
+
+	&__img {
+		margin-right: 100px;
+		width: 400px;
+		height: 400px;
+	}
+
+	&__name {
+		color: #000;
+		font-family: Merienda;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		padding-left: 60px;
+		margin-bottom: 20px;
+	}
+
+	&__country {
+		margin-bottom: 20px;
+		&_span {
+			color: #000;
+			font-family: Merienda;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+	}
+
+	&__text {
+		margin-bottom: 20px;
+		&_span {
+			color: #000;
+			font-family: Merienda;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+	}
+
+	&__price {
+		margin-bottom: 20px;
+		&_span {
+			color: #000;
+			font-family: Merienda;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+	}
+}

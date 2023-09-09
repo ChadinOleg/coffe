@@ -1,0 +1,33 @@
+.footer {
+	&__item {
+		color: black;
+		&:not(:last-child) {
+			margin-right: 40px;
+		}
+	}
+	&__nav {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 25px;
+		padding-top: 80px;
+		padding-left: 0px;
+	}
+	&__menu {
+		display: flex;
+		align-items: flex-end;
+	}
+	a {
+		color: black;
+	}
+}
+
+.test {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.coffeeBeansLogo {
+	margin-bottom: 35px;
+}

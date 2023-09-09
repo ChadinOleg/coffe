@@ -1,0 +1,20 @@
+// Header
+.our-coffee {
+	&__header {
+		background: url("../../../public/img/ourCoffeeImg/headerImg.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-bottom: 80px;
+		margin-bottom: 70px;
+		&_h1 {
+			color: #fff;
+			font-family: Merienda;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			text-align: center;
+		}
+	}
+}

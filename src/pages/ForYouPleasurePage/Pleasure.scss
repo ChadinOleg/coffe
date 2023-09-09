@@ -1,0 +1,172 @@
+.pleasure__header {
+	background: url("../../../public/img/PleasureImg/main.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 80px;
+	margin-bottom: 70px;
+}
+.pleasure__img {
+	margin-right: 100px;
+}
+
+// Header
+.our-coffee {
+	&__header {
+		background: url("../../../public/img/ourCoffeeImg/headerImg.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-bottom: 80px;
+		margin-bottom: 70px;
+		&_h1 {
+			color: #fff;
+			font-family: Merienda;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			text-align: center;
+		}
+	}
+}
+
+// Our-coffee
+.about-beans {
+	margin-bottom: 120px;
+	&__container {
+		display: flex;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__name {
+		padding-top: 50px;
+		color: #000;
+		font-family: Merienda;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-bottom: 35px;
+	}
+
+	&__description {
+		max-width: 306px;
+		margin-bottom: 15px;
+		color: #000;
+		text-align: center;
+		font-family: Merienda;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	&__filter {
+		position: relative;
+		margin-top: 40px;
+		padding-left: 156px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&::after {
+			position: absolute;
+			content: "";
+			bottom: -50px;
+			left: -100px;
+			width: 300px;
+			height: 1px;
+			background-color: #000;
+		}
+		&_name {
+			margin-right: 55px;
+		}
+	}
+}
+.Brazil {
+	margin-right: 15px;
+	padding: 5px 15px;
+	border-radius: 4px 0px 0px 4px;
+	box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+	background: #fff;
+}
+.Kenya {
+	margin-right: 15px;
+	padding: 5px 15px;
+	background: #fff;
+	box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.Columbia {
+	padding: 5px 15px;
+	box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+	background: #fff;
+}
+
+.coffee-filters {
+	&__menu {
+		margin-top: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+
+	&__item {
+		padding: 37px 27px 58px 26px;
+		cursor: pointer;
+		border-radius: 8px;
+
+		background: #fff;
+		box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+	}
+
+	&__img {
+		float: right;
+		margin-bottom: 15px;
+		width: 190px;
+	}
+
+	&__description {
+		margin-bottom: 15px;
+	}
+
+	&__country {
+		margin-bottom: 15px;
+		color: #000;
+		text-align: right;
+		font-family: Merienda;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	&__price {
+		color: #000;
+		text-align: right;
+		font-family: Merienda;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	&__input {
+		border-radius: 4px;
+		background: #fff;
+		box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+		margin-left: 50px;
+		padding: 6px 30px;
+		&::placeholder {
+			text-align: center;
+		}
+	}
+}
